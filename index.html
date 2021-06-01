@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/animatedIndex.js"></script>
+</head>
+
+<body id="toppage" onload="BackTopPage()">
+
+    <!-- NAV BAR -->
+    <div class="navbar-content">
+        <!-- Logo -->
+        <div>
+            <a href="index.html" class="style-logo">Cooks</a>
+        </div>
+
+        <!-- Menu -->
+        <div>
+            <a href="javascript:void(0);" id="btn-menu" onclick="myFunction()">
+                <button class="btn-menu-tab">MENU</button>
+            </a>
+            <div id="menu">
+                <div class="menu-active header-nav">
+                    <a href="index.html" class="style-nav active">Home
+                    </a>
+                    <a href="event.html" class="style-nav">News & Events</a>
+                    <!-- DROPDOWN -->
+                    <div class="dropdown">
+                        <a class="dropdown-toggle style-nav" href="#" role="button" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" style="background-color: #EC6E2D;">
+                            <li><a class="dropdown-item" href="service.html" style="color: white;">Door Develity</a>
+                            </li>
+                            <li><a class="dropdown-item" href="service.html" style="color: white;">Direct Develity</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="contact.html" class="style-nav">Mail Us</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ICON -->
+        <div>
+            <a href="javascript:void(0);" id="btn-menu-icon" onclick="myFunctionIcon()">
+                <i class="fas fa-bars fa-2x style-menu-icon"></i>
+            </a>
+            <div id="menu-icon">
+                <div class="icon-responsive">
+                    <a href="" style="text-decoration: none;">
+                        <span class="fa-stack fa-1x style-icon">
+                            <i class="far fa-circle fa-stack-2x icon-color"></i>
+                            <i class="fab fa-twitter fa-stack-1x fa-inverse swap-icon"></i>
+                        </span>
+                    </a>
+
+                    <a href="" style="text-decoration: none;">
+                        <span class="fa-stack fa-1x style-icon">
+                            <i class="far fa-circle fa-stack-2x icon-color"></i>
+                            <i class="fab fa-pinterest-p fa-stack-1x fa-inverse swap-icon"></i>
+                        </span>
+                    </a>
+
+                    <a href="" style="text-decoration: none;">
+                        <span class="fa-stack fa-1x style-icon">
+                            <i class="far fa-circle fa-stack-2x icon-color"></i>
+                            <i class="fab fa-dribbble fa-stack-1x fa-inverse swap-icon"></i>
+                        </span>
+                    </a>
+
+                    <a href="" style="text-decoration: none;">
+                        <span class="fa-stack fa-1x style-icon">
+                            <i class="far fa-circle fa-stack-2x icon-color"></i>
+                            <i class="fab fa-facebook-f fa-stack-1x fa-inverse swap-icon"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <div class="img-banner">
+        <div class="animated-from-left">
+            <h1>Sed Ut Perspiciatis Unde Omnis Iste Natus.</h1>
+            <p>Excepteur Sint Occaecat Cupidatat Non Proident
+        </div>
+        </p>
+        <div class="header-container">
+            <div class="card-header-1" id="slide1">
+                <img src="img/1.png" alt="" class="img-order">
+                <h5>Denouncing Pleasure</h5>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.</p>
+            </div>
+            <div class="card-header-1" id="slide2">
+                <img src="img/2.png" alt="" class="img-order">
+                <h5>Denouncing Pleasure</h5>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.</p>
+            </div>
+            <div class="card-header-1" id="slide3">
+                <img src="img/3.png" alt="" class="img-order">
+                <h5>Denouncing Pleasure</h5>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur.</p>
+            </div>
+        </div>
+        <a href="single.html" class="animation-btn">
+            <button class="btn-more">Read More
+                <div class="overlay">
+                </div>
+            </button>
+        </a>
+
+    </div>
+
+    <!-- BLOCK 1 -->
+    <div class="block-1">
+        <div class="block-content-1 animated-text">
+            <h3 class="text-title-block-1">Vel Illum Qui Dolorem Eum</h3>
+            <p class="text-body-block-1">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                architecto beatae vitae dicta sunt explicabo.</p>
+            <a href="single.html" class="animation-btn">
+                <button class="btn-more-block" onclick="getImg()">Read More
+                    <div class="overlay">
+                    </div>
+                </button>
+            </a>
+        </div>
+        <div class="block-content-2 animated-img">
+            <img src="img/block1.jpg" alt="" class="img-block-1" id="test">
+        </div>
+    </div>
+
+    <!-- BLOCK 2 -->
+    <div class="block-2">
+        <div class="block-content-2 animated-img">
+            <img src="img/block2.jpg" alt="" class="img-block-2">
+            <div class="banner-block-2">
+                <div class="banner-p"></div>
+                <p class="text-body-block-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.Quis autem vel eum iure reprehenderit qui in ea
+                    voluptate velit esse quam nihil molestiae consequatur.</p>
+                <a href="single.html" class="animation-btn">
+                    <button class="btn-more-block">Read More
+                        <div class="overlay">
+                        </div>
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="block-content-1 animated-text">
+            <h3 class="text-title-block-2">Excepteur Sint Occaecat Cupidatat Non Proident</h3>
+
+        </div>
+    </div>
+
+    <!-- NEW LETTER -->
+    <div class="new-letter">
+        <div class="animated-bottom">
+            <h3 class="text-title-letter">Newsletter</h3>
+            <p class="text-body-letter">But who has any right to find fault with a man who chooses to enjoy a pleasure
+                that
+                has no annoying consequences</p>
+            <form action="">
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                <input type="submit" value="Send" name="btn-send" id="btn-send">
+            </form>
+        </div>
+    </div>
+
+    <!-- BLOCK 3 -->
+    <div class="block-1">
+        <div class="block-content-1 animated-text">
+            <h3 class="text-title-block-1">At Vero Eos Et Accusamus Et Iusto Odio</h3>
+            <p class="text-body-block-1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                architecto beatae vitae dicta sunt explicabo.</p>
+            <a href="single.html" class="animation-btn">
+                <button class="btn-more-block">Read More
+                    <div class="overlay">
+                    </div>
+                </button>
+            </a>
+        </div>
+        <div class="block-content-2 animated-img">
+            <img src="img/block3.jpg" alt="" class="img-block-3">
+        </div>
+    </div>
+
+    <!-- BLOCK 4 -->
+    <div class="block-1">
+        <div class="block-content-2 animated-img">
+            <img src="img/block4.jpg" alt="" class="img-block-3">
+        </div>
+        <div class="block-content-1 animated-text">
+            <h3 class="text-title-block-1">At Vero Eos Et Accusamus Et Iusto Odio</h3>
+            <p class="text-body-block-1">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                architecto beatae vitae dicta sunt explicabo.</p>
+            <a href="single.html" class="animation-btn">
+                <button class="btn-more-block">Read More
+                    <div class="overlay">
+                    </div>
+                </button>
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-background">
+        <div class="footer-container">
+            <div class="footer-content animated-bottom">
+                <h3 class="text-title-footer">Cumque Nihil Impedit</h3>
+                <img src="img/footer.jpg" alt="" class="img-footer">
+                <p class="text-body-footer">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit
+                    quo
+                    minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus
+                </p>
+            </div>
+
+            <div class="footer-content animated-bottom">
+                <h3 class="text-title-footer">Voluptas Assumenda</h3>
+                <ul class="ul-footer">
+                    <li>
+                        <a href="">Doloribus Asperiores</a>
+                    </li>
+                    <li>
+                        <a href="">Itaque Earum Rerum</a>
+                    </li>
+                    <li>
+                        <a href="">Deserunt Mollitia</a>
+                    </li>
+                    <li>
+                        <a href="">Facilis Est Et Expedita</a>
+                    </li>
+                    <li>
+                        <a href="">Occaecati Cupiditate</a>
+                    </li>
+                    <li>
+                        <a href="">Deserunt Mollitia Laborum</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-content animated-bottom">
+                <h3 class="text-title-footer">Deserunt Mollitia</h3>
+                <ul class="ul-footer">
+                    <li>
+                        <a href="">Doloribus Asperiores</a>
+                    </li>
+                    <li>
+                        <a href="">Itaque Earum Rerum</a>
+                    </li>
+                    <li>
+                        <a href="">Deserunt Mollitia</a>
+                    </li>
+                    <li>
+                        <a href="">Facilis Est Et Expedita</a>
+                    </li>
+                    <li>
+                        <a href="">Occaecati Cupiditate</a>
+                    </li>
+                    <li>
+                        <a href="">Deserunt Mollitia Laborum</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-content animated-bottom">
+                <h3 class="text-title-footer">Flickr Posts</h3>
+                <div class="footer-col-4">
+                    <div class="footer-col-4-row">
+                        <a href="#">
+                            <img src="img/7.jpg" alt="" class="img-col-4">
+                        </a>
+                        <a href="#">
+                            <img src="img/8.jpg" alt="" class="img-col-4">
+                        </a>
+                        <a href="#">
+                            <img src="img/7.jpg" alt="" class="img-col-4">
+                        </a>
+                    </div>
+                    <div class="footer-col-4-row">
+                        <a href="#">
+                            <img src="img/8.jpg" alt="" class="img-col-4">
+                        </a>
+                        <a href="#">
+                            <img src="img/7.jpg" alt="" class="img-col-4">
+                        </a>
+                        <a href="#">
+                            <img src="img/8.jpg" alt="" class="img-col-4">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="div-footer-2 animated-bottom">
+        <p>© 2016 Cooks. All rights reserved | Design by
+            <a href="https://w3layouts.com/" class="link-style-4" target="_blank"> W3layouts.
+            </a>
+        </p>
+    </div>
+</body>
+
+</html>

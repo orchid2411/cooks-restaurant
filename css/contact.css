@@ -1,0 +1,125 @@
+.block-contact{
+    margin: 50px 120px;
+}
+
+.map-contact iframe {
+    width: 100%;
+    min-height: 400px;
+    padding: 15px;
+    border: 1px black dotted;
+}
+
+/* ********* */
+/*  Block 2  */
+/* ********* */
+.block-2-contact-content {
+    display: flex;
+}
+
+.block-2-contact-content h3 {
+    font-size: 26px;
+    color: #F8782D;
+    margin: 40px 0;
+    font-family: 'Alex Brush', cursive;
+}
+
+.block-2-contact-content p {
+    color: #999;
+    font-size: 14px;
+    line-height: 1.8;
+    margin: 0;
+    font-family: 'Cabin', sans-serif;
+    padding-bottom: 20px;
+}
+
+.block-2-contact-content p span {
+    display: block;
+    font-weight: 700;
+}
+
+.block-2-contact-content h6 {
+    font-size: 14px;
+    color: #000;
+}
+
+.block-2-contact-content a {
+    color: #F8782D;
+    text-decoration: none;
+}
+
+.block-2-contact-content a:hover {
+    color: #1D1811;
+}
+
+.block-2-contact-content input {
+    width: 32%;
+    margin-bottom: 20px;
+    background: none;
+    border: 1px solid #D9D9D9;
+    color: #A3A3A3;
+    padding: 5px 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+.block-2-contact-content textarea {
+    min-height: 200px;
+    padding: 5px 10px;
+    resize: none;
+    width: 97.5%;
+    margin-bottom: 20px;
+    color: #A3A3A3;
+    border: 1px solid #D9D9D9;
+    outline: none;
+}
+
+.block-2-contact-content input[type="submit"], input[type="reset"] {
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 0;
+    width: 48.5%;
+    background: #AC915A;
+    border: none;
+}
+
+.block-2-contact-content input[type="submit"]:hover,
+ input[type="reset"]:hover {
+    background: #F8782D;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    .block-contact{
+        margin: 50px 70px;
+    }
+
+    .block-2-contact-content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    
+    .block-contact{
+        margin: 50px 20px;
+    }
+
+    .block-2-contact-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .map-contact iframe {
+        min-height: 200px;
+    }
+
+    .block-2-contact-content input {
+        width: 100%;
+    }
+
+    .block-2-contact-content input[type="submit"], input[type="reset"] {
+        width: 100%;
+    }
+}

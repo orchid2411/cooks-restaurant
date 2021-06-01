@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/event.css">
+    <link rel="stylesheet" href="css/service.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/animatedMail.js"></script>
+</head>
+
+<body id="toppage" onload="BackTopPage()">
+
+    <!-- NAV BAR -->
+    <div class="navbar-content">
+        <!-- Logo -->
+        <div>
+            <a href="index.html" class="style-logo">Cooks</a>
+        </div>
+
+        <!-- Menu -->
+        <div>
+            <a href="javascript:void(0);" id="btn-menu" onclick="myFunction()">
+                <button class="btn-menu-tab">MENU</button>
+            </a>
+            <div id="menu">
+                <div class="menu-active header-nav">
+                    <a href="index.html" class="style-nav">Home</a>
+                    <a href="event.html" class="style-nav">News & Events</a>
+                    <!-- DROPDOWN -->
+                    <div class="dropdown">
+                        <a class="dropdown-toggle style-nav" href="#" role="button" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" style="background-color: #EC6E2D;">
+                            <li><a class="dropdown-item" href="service.html" style="color: white;">Door Develity</a></li>
+                            <li><a class="dropdown-item" href="service.html" style="color: white;">Direct Develity</a></li>
+                        </ul>
+                    </div>
+                    <a href="contact.html" class="style-nav active">Mail Us</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ICON -->
+        <div>
+            <a href="javascript:void(0);" id="btn-menu-icon" onclick="myFunctionIcon()">
+                <i class="fas fa-bars fa-2x style-menu-icon"></i>
+            </a>
+            <div id="menu-icon">
+                <div class="icon-responsive">
+                    <a href="" style="text-decoration: none;">
+                        <span class="fa-stack fa-1x style-icon">
+                            <i class="far fa-circle fa-stack-2x icon-color"></i>
+                            <i class="fab fa-twitter fa-stack-1x fa-inverse swap-icon"></i>
+                        </span>
+                    </a>
+        
+                    <a href="" style="text-decoration: none;">
+                        <span class="fa-stack fa-1x style-icon">
+                            <i class="far fa-circle fa-stack-2x icon-color"></i>
+                            <i class="fab fa-pinterest-p fa-stack-1x fa-inverse swap-icon"></i>
+                        </span>
+                    </a>
+        
+                    <a href="" style="text-decoration: none;">
+                        <span class="fa-stack fa-1x style-icon">
+                            <i class="far fa-circle fa-stack-2x icon-color"></i>
+                            <i class="fab fa-dribbble fa-stack-1x fa-inverse swap-icon"></i>
+                        </span>
+                    </a>
+        
+                    <a href="" style="text-decoration: none;">
+                        <span class="fa-stack fa-1x style-icon">
+                            <i class="far fa-circle fa-stack-2x icon-color"></i>
+                            <i class="fab fa-facebook-f fa-stack-1x fa-inverse swap-icon"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <img src="img/newletter.jpg" alt="" class="img-header-evt">
+
+    <!-- Block 1 -->
+    <div class="block-contact">
+        <h3 class="text-block-1-evt animated-from-left">How To Find Us</h3>
+        <div class="map-contact">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2564.958900464012!2d36.23097800000001!3d49.993379999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a0f009ab9f07%3A0xa21e10f67fa29ce!2sGeorgia+Education+Center!5e0!3m2!1sen!2sin!4v1436943860334" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+    </div>
+
+    <!-- Block 2 -->
+    <div class="block-contact">
+        <div class="block-2-contact-content">
+            <div class="animated-text">
+                <h3>Address</h3>
+                <p>Est Eligendi Optio Cumque Nihil Impedit Quo Minus Id Quod Maxime
+                    <span>26 56D Rescue,US</span>
+                </p>
+                <h6>Free Phone :+1 078 4589 2456</h6>
+                <h6>Telephone :+1 078 4589 2456</h6>
+                <h6>Fax :+1 078 4589 2456</h6>
+                <a href="mailto:info@example.com">info@example.com</a>
+            </div>
+
+            <div class="animated-text">
+                <h3>Contact Form</h3>
+                <form action="">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email" required>
+                    <input type="number" placeholder="Telephone">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message..."></textarea>
+                    <input type="submit" value="Submit" name="" id="">
+                    <input type="reset" value="Clear">
+                </form> 
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-background">
+        <div class="footer-container">
+            <div class="footer-content animated-bottom">
+                <h3 class="text-title-footer">Cumque Nihil Impedit</h3>
+                <img src="img/footer.jpg" alt="" class="img-footer">
+                <p class="text-body-footer">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo
+                    minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus
+                </p>
+            </div>
+    
+            <div class="footer-content animated-bottom">
+                <h3 class="text-title-footer">Voluptas Assumenda</h3>
+                <ul class="ul-footer">
+                    <li>
+                        <a href="">Doloribus Asperiores</a>
+                    </li>
+                    <li>
+                        <a href="">Itaque Earum Rerum</a>
+                    </li>
+                    <li>
+                        <a href="">Deserunt Mollitia</a>
+                    </li>
+                    <li>
+                        <a href="">Facilis Est Et Expedita</a>
+                    </li>
+                    <li>
+                        <a href="">Occaecati Cupiditate</a>
+                    </li>
+                    <li>
+                        <a href="">Deserunt Mollitia Laborum</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="footer-content animated-bottom">
+                <h3 class="text-title-footer">Deserunt Mollitia</h3>
+                <ul class="ul-footer">
+                    <li>
+                        <a href="">Doloribus Asperiores</a>
+                    </li>
+                    <li>
+                        <a href="">Itaque Earum Rerum</a>
+                    </li>
+                    <li>
+                        <a href="">Deserunt Mollitia</a>
+                    </li>
+                    <li>
+                        <a href="">Facilis Est Et Expedita</a>
+                    </li>
+                    <li>
+                        <a href="">Occaecati Cupiditate</a>
+                    </li>
+                    <li>
+                        <a href="">Deserunt Mollitia Laborum</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="footer-content animated-bottom">
+                <h3 class="text-title-footer">Flickr Posts</h3>
+                <div class="footer-col-4">
+                    <div class="footer-col-4-row">
+                        <a href="#">
+                            <img src="img/7.jpg" alt="" class="img-col-4">
+                        </a>
+                        <a href="#">
+                            <img src="img/8.jpg" alt="" class="img-col-4">
+                        </a>
+                        <a href="#">
+                            <img src="img/7.jpg" alt="" class="img-col-4">
+                        </a>
+                    </div>
+                    <div class="footer-col-4-row">
+                        <a href="#">
+                            <img src="img/8.jpg" alt="" class="img-col-4">
+                        </a>
+                        <a href="#">
+                            <img src="img/7.jpg" alt="" class="img-col-4">
+                        </a>
+                        <a href="#">
+                            <img src="img/8.jpg" alt="" class="img-col-4">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="div-footer-2 animated-bottom">
+        <p>© 2016 Cooks. All rights reserved | Design by
+            <a href="https://w3layouts.com/" class="link-style-4" target="_blank"> W3layouts.
+            </a>
+        </p>
+    </div>
+</body>
+
+</html>

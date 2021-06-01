@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News&Events</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/event.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/animateEvent.js"></script>
+</head>
+
+<body id="toppage" onload="BackTopPage()">
+
+    <!-- NAV BAR -->
+    <div class="navbar-content">
+        <!-- Logo -->
+        <div>
+            <a href="index.html" class="style-logo">Cooks</a>
+        </div>
+
+        <!-- Menu -->
+        <div>
+            <a href="javascript:void(0);" id="btn-menu" onclick="myFunction()">
+                <button class="btn-menu-tab">MENU</button>
+            </a>
+            <div id="menu">
+                <div class="menu-active header-nav">
+                    <a href="index.html" class="style-nav">Home</a>
+                    <a href="event.html" class="style-nav active">News & Events</a>
+                    <!-- DROPDOWN -->
+                    <div class="dropdown">
+                        <a class="dropdown-toggle style-nav" href="#" role="button" data-bs-toggle="dropdown">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" style="background-color: #EC6E2D;">
+                            <li><a class="dropdown-item" href="service.html" style="color: white;">Door Develity</a></li>
+                            <li><a class="dropdown-item" href="service.html" style="color: white;">Direct Develity</a></li>
+                        </ul>
+                    </div>
+                    <a href="contact.html" class="style-nav">Mail Us</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ICON -->
+        <div>
+            <a href="javascript:void(0);" id="btn-menu-icon" onclick="myFunctionIcon()">
+                <i class="fas fa-bars fa-2x style-menu-icon"></i>
+            </a>
+            <div id="menu-icon">
+                <div class="icon-responsive">
+                    <a href="" style="text-decoration: none;">
+                        <span class="fa-stack fa-1x style-icon">
+                            <i class="far fa-circle fa-stack-2x icon-color"></i>
+                            <i class="fab fa-twitter fa-stack-1x fa-inverse swap-icon"></i>
+                        </span>
+                    </a>
+        
+                    <a href="" style="text-decoration: none;">
+                        <span class="fa-stack fa-1x style-icon">
+                            <i class="far fa-circle fa-stack-2x icon-color"></i>
+                            <i class="fab fa-pinterest-p fa-stack-1x fa-inverse swap-icon"></i>
+                        </span>
+                    </a>
+        
+                    <a href="" style="text-decoration: none;">
+                        <span class="fa-stack fa-1x style-icon">
+                            <i class="far fa-circle fa-stack-2x icon-color"></i>
+                            <i class="fab fa-dribbble fa-stack-1x fa-inverse swap-icon"></i>
+                        </span>
+                    </a>
+        
+                    <a href="" style="text-decoration: none;">
+                        <span class="fa-stack fa-1x style-icon">
+                            <i class="far fa-circle fa-stack-2x icon-color"></i>
+                            <i class="fab fa-facebook-f fa-stack-1x fa-inverse swap-icon"></i>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER -->
+    <img src="img/newletter.jpg" alt="" class="img-header-evt">
+
+    <!-- Block 1 -->
+    <div class="block-1-evt">
+        <h3 class="text-block-1-evt animated-from-left">Latest Events</h3>
+        <div class="block-1-content-evt">
+            <div class="item-block-1-evt animated-img">
+                <p class="text-head-card">2 January,2016</p>
+                <img src="img/10.jpg" alt="..." class="img-block-1-evt">
+                <div >
+                    <a href="single.html" class="text-title-card">Impedit Minus Id Quod Soluta</a> <br>
+                    <a href="single.html" class="text-title-card-1">Maxime Placeat Facere</a>
+                    <p class="text-body-card">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+                    <a href="single.html" class="animation-btn">
+                        <button class="btn-more-block">Read More
+                            <div class="overlay">
+                            </div>
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="item-block-1-evt animated-img">
+                <p class="text-head-card">8 January,2016</p>
+                <img src="img/8.jpg" alt="..." class="img-block-1-evt">
+                <div >
+                    <a href="single.html" class="text-title-card">Soluta Nobis Est Eligendi Quod</a> <br>
+                    <a href="single.html" class="text-title-card-1">Placeat Facere Possimus</a>
+                    <p class="text-body-card">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+                    <a href="single.html" class="animation-btn">
+                        <button class="btn-more-block">Read More
+                            <div class="overlay">
+                            </div>
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="item-block-1-evt animated-img">
+                <p class="text-head-card">5 January,2016</p>
+                <img src="img/7.jpg" alt="..." class="img-block-1-evt">
+                <div >
+                    <a href="single.html" class="text-title-card">Id Quod Maxime Placeat Facere</a> <br>
+                    <a href="single.html" class="text-title-card-1">Maxime Eligendi Optio</a>
+                    <p class="text-body-card">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+                    <a href="single.html" class="animation-btn">
+                        <button class="btn-more-block">Read More
+                            <div class="overlay">
+                            </div>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Block 2 -->
+    <div class="block-2-evt">
+        <div class="block-2-evt-left animated-text">
+            <h3 class="text-block-1-evt">Featured Events</h3>
+            <div class="body-block-2-evt-left">
+                <h4 class="text-title-block-2-evt">Nam Libero Tempore, Cum Soluta Nobis Est Eligendi Optio Dignissimos</h4>
+                <h4 class="text-title-block-2-evt-1">Cumque Nihil Impedit Quo Minus Id Quod Maxime Placeat</h4>
+                <p class="text-body-block-2-evt">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+                <ul>
+                    <li><a href="">Temporibus autem quibusdam</a></li>
+                    <li><a href="">Et aut officiis debitis aut</a></li>
+                    <li><a href="">Necessitatibus saepe eveniet</a></li>
+                    <li><a href="">Ut et voluptates repudiandae</a></li>
+                    <li><a href="">Molestiae non recusandae earum</a></li>
+                    <li><a href="">Rerum hic tenetur a sapiente delectus</a></li>
+                    <li><a href="">Temporibus autem quibusdam</a></li>
+                    <li><a href="">Et aut officiis debitis aut</a></li>
+                    <li><a href="">Necessitatibus saepe eveniet</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="block-2-evt-right animated-img">
+            <img src="img/9.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-background">
+        <div class="footer-container">
+            <div class="footer-content animated-bottom">
+                <h3 class="text-title-footer">Cumque Nihil Impedit</h3>
+                <img src="img/footer.jpg" alt="" class="img-footer">
+                <p class="text-body-footer">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo
+                    minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus
+                </p>
+            </div>
+    
+            <div class="footer-content animated-bottom">
+                <h3 class="text-title-footer">Voluptas Assumenda</h3>
+                <ul class="ul-footer">
+                    <li>
+                        <a href="">Doloribus Asperiores</a>
+                    </li>
+                    <li>
+                        <a href="">Itaque Earum Rerum</a>
+                    </li>
+                    <li>
+                        <a href="">Deserunt Mollitia</a>
+                    </li>
+                    <li>
+                        <a href="">Facilis Est Et Expedita</a>
+                    </li>
+                    <li>
+                        <a href="">Occaecati Cupiditate</a>
+                    </li>
+                    <li>
+                        <a href="">Deserunt Mollitia Laborum</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="footer-content animated-bottom">
+                <h3 class="text-title-footer">Deserunt Mollitia</h3>
+                <ul class="ul-footer">
+                    <li>
+                        <a href="">Doloribus Asperiores</a>
+                    </li>
+                    <li>
+                        <a href="">Itaque Earum Rerum</a>
+                    </li>
+                    <li>
+                        <a href="">Deserunt Mollitia</a>
+                    </li>
+                    <li>
+                        <a href="">Facilis Est Et Expedita</a>
+                    </li>
+                    <li>
+                        <a href="">Occaecati Cupiditate</a>
+                    </li>
+                    <li>
+                        <a href="">Deserunt Mollitia Laborum</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="footer-content animated-bottom">
+                <h3 class="text-title-footer">Flickr Posts</h3>
+                <div class="footer-col-4">
+                    <div class="footer-col-4-row">
+                        <a href="#">
+                            <img src="img/7.jpg" alt="" class="img-col-4">
+                        </a>
+                        <a href="#">
+                            <img src="img/8.jpg" alt="" class="img-col-4">
+                        </a>
+                        <a href="#">
+                            <img src="img/7.jpg" alt="" class="img-col-4">
+                        </a>
+                    </div>
+                    <div class="footer-col-4-row">
+                        <a href="#">
+                            <img src="img/8.jpg" alt="" class="img-col-4">
+                        </a>
+                        <a href="#">
+                            <img src="img/7.jpg" alt="" class="img-col-4">
+                        </a>
+                        <a href="#">
+                            <img src="img/8.jpg" alt="" class="img-col-4">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="div-footer-2 animated-bottom">
+        <p>© 2016 Cooks. All rights reserved | Design by
+            <a href="https://w3layouts.com/" class="link-style-4" target="_blank"> W3layouts.
+            </a>
+        </p>
+    </div>
+</body>
+
+</html>

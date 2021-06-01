@@ -1,0 +1,139 @@
+/* ********* */
+/*   APPEAR  */
+/* ********* */
+.animated-from-left {
+    animation-name: animated-from-left ;
+    animation-duration: 1000ms;
+}
+
+@keyframes animated-from-left{
+    0% {opacity: 0; transform: translateX(-250px);}
+    100% {opacity: 1; transform: translateX(0px);}
+}
+
+.animated-from-right {
+    animation-name: animated-from-right ;
+    animation-duration: 1000ms;
+}
+
+@keyframes animated-from-right{
+    0% {opacity: 0; transform: translateX(250px);}
+    100% {opacity: 1; transform: translateX(0px);}
+}
+
+.animated-img-appear {
+    animation-name: animated-img-appear ;
+    animation-duration: 1500ms;
+}
+
+@keyframes animated-img-appear {
+    0% { transform: perspective(400px) rotateY(90deg); opacity: 0;}
+    40% { transform: perspective(400px) rotateY(-10deg);}
+    70% { transform: perspective(400px) rotateY(10deg);}
+    100% { transform: perspective(400px) rotateY(0deg); opacity: 1;}
+}
+
+.animated-from-bottom {
+    animation-name: animated-from-bottom;
+    animation-duration: 1000ms;
+}
+
+@keyframes animated-from-bottom{
+    0% {opacity: 0; transform: translateY(100px);}
+    100% {opacity: 1; transform: translateY(0px);}
+}
+
+.animated-from-top {
+    animation-name: animated-from-top;
+    animation-duration: 1000ms;
+}
+
+@keyframes animated-from-top{
+    0% {opacity: 0; transform: translateY(-100px);}
+    100% {opacity: 1; transform: translateY(0px);}
+}
+
+/* ******** */
+/*  Slide   */
+/* ******** */
+#slide1 {
+    position: relative;
+    animation-name: slide1 ;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes slide1 {
+    0%   { left:5%; opacity: 1;}
+    33%   { left:35%; opacity: 1;}
+    66%   { left:65%; opacity: 1;}
+        76%   { left:70%; opacity: 0;}
+        78%   { left:0%; opacity: 0;}
+    100%   { left:5%; opacity: 1;}
+}
+  
+#slide2 {
+    position: relative;
+    animation-name: slide2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes slide2 {
+    0%   { left:5%; opacity: 1;}
+    33%   { left:35%; opacity: 1;}
+        43%   { left:40%; opacity: 0;}
+        45%   { left:-30%; opacity: 0;}
+    67%   { left:-25%; opacity: 1;}
+    100%   { left:5%; opacity: 1;}
+}
+
+#slide3 {
+    position: relative;
+    animation-name: slide3;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slide3 {
+    0%   { left:5%; opacity: 1;}
+        10%   { left:10%; opacity: 0;}
+        12%   { left:-60%; opacity: 0;}
+    34%   { left:-55%; opacity: 1;}
+    66%   { left:-25%; opacity: 1;}
+    100%   { left:5%; opacity: 1;}
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+}
+
+@media screen and (min-width:320px) and (max-width:768px) {
+
+    /* Slide */
+    @keyframes slide1 {
+       0%   { left:5%; opacity: 1;}
+       33%   { left:50%; opacity: 1;}
+           43%   { left:55%; opacity: 0;}
+           45%   { left:-110%; opacity: 0;}
+       67% {left:-45%; opacity: 1;}
+       100%   { left:5%; opacity: 1;}
+    }
+      
+    @keyframes slide2 {
+        0%   { left:20%; opacity: 1;}
+            10%   { left:25%; opacity: 0;}
+            12%   { left:-140%; opacity: 0;}
+        34%   { left:-75%; opacity: 1;}
+        67%   { left:-25%; opacity: 1;}
+        100%   { left:20%; opacity: 1;}
+    }
+      
+    @keyframes slide3 {
+        0%   { left:-105%; opacity: 1;}
+        33% {left:-55%; opacity: 1; }
+        66%   { left:-10%; opacity: 1;}
+            76%   { left:-5%; opacity: 0;}
+            78%   { left:-110%; opacity: 0;}
+        100%   { left:-105%; opacity: 1;}
+    }
+}
